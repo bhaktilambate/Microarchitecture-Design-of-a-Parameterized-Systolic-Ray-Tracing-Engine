@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Oct  8 00:35:12 2026
+# Process ID         : 5324
+# Current directory  : C:/Users/Bhakti Lambate/Systolic/Systolic.runs/impl_1
+# Command line       : vivado.exe -log systolic_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source systolic_top.tcl -notrace
+# Log file           : C:/Users/Bhakti Lambate/Systolic/Systolic.runs/impl_1/systolic_top.vdi
+# Journal file       : C:/Users/Bhakti Lambate/Systolic/Systolic.runs/impl_1\vivado.jou
+# Running On         : LAPTOP-CS6JNLD3
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-1334U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16806 MB
+# Swap memory        : 3699 MB
+# Total Virtual      : 20505 MB
+# Available Virtual  : 2741 MB
+#-----------------------------------------------------------
+source systolic_top.tcl -notrace

@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Simulation complete!
+$finish called at time : 460 ns : File "C:/Users/Bhakti Lambate/Systolic/Systolic.srcs/sim_1/new/tb_top.sv" Line 92
+INFO: xsimkernel Simulation Memory Usage: 19756 KB (Peak: 19756 KB), Simulation CPU Usage: 21499 ms

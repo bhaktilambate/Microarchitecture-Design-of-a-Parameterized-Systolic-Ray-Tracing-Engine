@@ -1,0 +1,19 @@
+{
+    "DESIGN_NAME": "systolic_top",
+    "VERILOG_FILES": [
+        "dir::src/pe.sv",
+        "dir::src/skew_buffer.sv",
+        "dir::src/systolic_array.sv",
+        "dir::src/matrix_bram.sv",
+        "dir::src/gemm_controller.sv",
+        "dir::src/spatial_denoiser.sv",
+        "dir::src/systolic_top.sv"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 20.0,
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 700 700",
+    "CORE_AREA": "10 10 690 690",
+    "PL_TARGET_DENSITY": 0.45,
+    "PDK": "sky130A"
+}
