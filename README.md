@@ -51,8 +51,6 @@ The engine is built from a 2D grid of identical processing elements. Rays stream
 | `ARRAY_COLS` | Number of PE columns | `4` |
 | `DATA_WIDTH` | Datapath bit-width | `32` |
 
-*(Update block names and parameters to match your RTL.)*
-
 ## Tools & Environment
 
 - **Language:** Verilog HDL
