@@ -1,0 +1,10 @@
+cd "C:\Users\Bhakti Lambate\Systolic"
+
+python -c "import numpy as np; A = np.random.randint(0, 10, (5,5)); B = np.random.randint(0, 10, (5,5)); C = np.dot(A, B); print('=== RANDOMIZED INPUT MATRIX A ===\n', A); print('\n=== RANDOMIZED INPUT MATRIX B ===\n', B); print('\n=== EXPECTED ACCELERATOR OUTPUT MATRIX C ===\n', C)"
+
+
+python openlane_design/build_chip.py
+
+python openlane_design/gate_counter.py
+
+yosys -p "read_verilog -sv openlane_design/src/pe.sv openlane_design/src/skew_buffer.sv openlane_design/src/systolic_array.sv openlane_design/src/matrix_bram.sv openlane_design/src/gemm_controller.sv openlane_design/src/spatial_denoiser.sv openlane_design/src/systolic_top.sv; hierarchy -top systolic_top; proc; opt; fsm; opt; techmap; opt; stat"
